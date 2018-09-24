@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(50, 50, 50);
+    height: 50px;
+    font-size: 18px;
+    width: 100%;
+}
+span{
+    margin-left:550px;
+    margin-right: 50px;
+    background-color: aqua;
+}
+input{
+    margin-top: 15px;
+}

@@ -1,0 +1,26 @@
+body{
+    background-color:rgb(175, 174, 174);
+    margin-top:-19px;
+    height: 1000px;
+    font-size: 16px;
+    width: 100%;
+}
+h2{
+    margin-left:550px;
+}
+ul{
+    margin-left:550px;
+}
+button{
+    margin-left: 200px;
+}
+#todo0{
+    background-color: white;
+}
+#done0{
+    background-color:white;
+}
+li{
+    width: 321px;
+
+}
