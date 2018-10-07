@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>轮播图</title>
+    <style>
+        .wrap
+        {
+            width: 1200px;
+            height: 397px;
+            border: 5px solid #000;
+            margin:  auto ;
+            overflow: hidden;
+            position: relative;
+        }
+        .wrap a
+        {
+            display:none;
+        }
+        
+        .btn
+        {
+            width: 1002px;
+            height: 400px;
+            position: absolute;
+            bottom: 0px;
+            left: 0px;
+        }
+        .btn span
+        {
+            display: block;
+            float: left;
+            color: #fff;
+            width: 40px;
+            height: 400px;
+            font-size: 80px;
+            text-align: center;
+            line-height: 400px;
+            cursor: pointer;
+            
+        }
+        .btn #next
+        {
+            float: right;
+            margin-right: -180px;
+            
+        }
+        #btn1{
+            border:1px solid black;
+            margin-top: -50px;
+            text-align: center;
+            font-size: 80px;
+            color:black;
+            cursor: pointer;
+        }
+    </style>
+    <script src="turn.js"></script>
+</head>
+<body>
+    <!-- 照片轮换 -->
+	<div class="wrap">
+        <a href="#" style="display:block"><img src="images/1.jpg" alt=""></a>
+        <a href="#"><img src="images/2.jpg" alt=""></a>
+        <a href="#"><img src="images/3.jpg" alt=""></a>
+        <a href="#"><img src="images/4.gif" alt=""></a>
+        <a href="#"><img src="images/5.jpg" alt=""></a>
+        <a href="#"><img src="images/6.jpg" alt=""></a>
+        <a href="#"><img src="images/7.jpg" alt=""></a>
+        <a href="#"><img src="images/8.jpg" alt=""></a>
+        <a href="#"><img src="images/9.jpg" alt=""></a>
+        <div class="btn">
+				<span id="prev" onclick="prev()"> < </span>
+				<span id="next" onclick="next()"> > </span>
+		</div>
+        <div id="btn1">
+            <span id="but0"> . </span>
+            <span id="but1"> . </span>
+            <span id="but2"> . </span>
+            <span id="but3"> . </span>
+            <span id="but4"> . </span>
+            <span id="but5"> . </span>
+            <span id="but6"> . </span>
+            <span id="but7"> . </span>
+            <span id="but8"> . </span>
+        </div>
+    </div>
+</body>
+</html>
