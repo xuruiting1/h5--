@@ -1,0 +1,23 @@
+<p>
+  parent works!这是父组件
+</p>
+<!-- <app-child1 [arr]="data1" (getvalue)="del($event)"></app-child1>
+<app-child [arr]="data"></app-child> -->
+<app-child [arr]="data" [arr1]="data1" (delIndex)="del($event)">
+  <h1 class="header">这是todolist页面</h1>
+  <footer class="footer">这是底部</footer>
+  <!-- //没有写在parent里面 -->
+  
+</app-child>
+
+
+<!-- <app-child [arr]="data" [arr1]="data1" (delIndex)="del($event)">
+  <p class="header">这是一段文字</p>
+  <footer class="footer">这是底部</footer>
+</app-child> -->
+
+
+<!-- <app-child [arr]="data" (delIndex)="del($event)"></app-child> -->
+
+<app-child1></app-child1>
+<button (click)="add()">添加</button>

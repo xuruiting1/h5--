@@ -1,0 +1,104 @@
+ul li{
+    float: left;
+}
+ul li a:link{
+    color: #ff6e3d;
+}
+ /* ul li a:visited { 
+    color:#333; 
+}  */
+ ul li a:hover{
+    color: #ff6e3d;
+}
+ ul li a:active{
+    color: #ff6e3d;
+}
+li.active>a {
+    color: #ff6e3d;
+}
+.navbar-list-wrap>li>a {
+    outline: none;
+    font-size: 0.9em;
+    padding: 0.5em 0.8em;
+    display: inline-block;
+    line-height: 1.8;
+}
+.child-pager-header{
+    border-bottom: 2px solid #eee;
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+.navbar-list-wrap {
+    /* margin-bottom: -2px; */
+    padding-left: 0;
+    display: inline-block;
+}
+.time{
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
+
+/* 下面的部分 */
+
+.hour{
+    margin-right: 10px;
+    color: #9e9e9e!important;
+   }
+   .person{
+      float:right;
+      color: #9e9e9e!important;
+   }
+   .bigimg{
+       width: 100%;
+       height: 130px;
+   }
+   .card-content text-muted three-line{
+       width:228px;
+       height: 60px;
+       padding: 0 10px 10px 10px;
+       overflow: hidden;
+       text-overflow: ellipsis;
+   }
+   .contentspan{
+       height: 60px;
+       display: block;
+       overflow: hidden;
+       text-overflow: ellipsis;
+       color: #9e9e9e!important;
+   }
+   .ddd{
+       margin-top: 7px;
+       margin-bottom: 7px;
+   }
+   
+   
+   .argo-home .course-carousel .course-filter {
+       padding-left: 5px;
+       margin-bottom: 15px;
+   }
+
+   #balala2{
+       width: 760px;
+       height: 230px; 
+   }
+   #balala2 ul li{
+
+       float: left;
+       width: 180px;
+       height: 230px; 
+       margin-right: 20px; 
+       margin-left: 50px;
+       padding-bottom: 30px;
+       margin-bottom:20px;
+       border: 1px solid #ddd;
+  
+       
+   }
+   #balala2 ul li h5{
+        font-size: 14px;
+        display: block;
+        margin: 0;
+        overflow: hidden;
+        color: #333;
+   }

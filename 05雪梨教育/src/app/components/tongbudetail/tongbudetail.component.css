@@ -1,0 +1,138 @@
+#total{
+    width: 1356px;
+    height: 115px;
+    background-color: rgb(250, 251, 252);
+}
+.teamhead-details{
+    background-color: rgb(250, 251, 252);
+    width: 1036px;
+    height: 111px;
+    margin:0 auto;
+    /* border: 1px solid salmon; */
+}
+.top{
+    width: 740px;
+    height: 71px;
+    /* border: 1px solid black; */
+}
+.renshi{
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin-top:15px; 
+}
+.public{
+    font-size: 18px;
+    line-height: 18px;
+    margin-top: 20px;
+    float: left;
+}
+.join{
+    margin-left: 30px;
+    display: inline-block;
+    min-width: 18px;
+    padding: 3px 7px;
+    font-size: 12px;
+    line-height: 1;
+    border-radius: 12px;
+    color: white;
+    background-color: rgb(56, 176, 63);
+}
+.icon-check{
+    width: 15px;
+    height: 13px;
+    font-family: ZenIcon;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    line-height: 1;
+    text-transform: none;
+    /* speak: none; */
+    -webkit-font-smoothing: antialiased;
+}
+/* 导航 */
+.container{
+    width:740px;
+    height: 40px;
+    /* border: 1px solid darkblue; */
+    margin-left: 0px;
+}
+
+.container li{
+    float: left;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.i{
+    width: 20px;
+    height: 20px;
+    line-height: 40px;
+    float: left;
+    margin-right: 10px;
+    margin-top: 10px;
+   
+}
+.list{
+    line-height: 40px;
+}
+
+.list li {
+    position: relative;
+    top: 1px;
+    font-size: 16px;
+    line-height: 18px;
+    height: 35px;
+    border-radius: 4px 4px 0 0;
+    transition: color 230ms;
+    margin-right: 40px;
+    margin-top: 10px;
+}
+
+.spe{
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-bottom-color: transparent;
+    margin-right: 0px;
+    
+}
+#spec{
+     color: #000;
+    border-top-width: 3px;
+    border-top-color: #ff6d3d;
+    margin-top: 0px;
+    padding-top: 8px;
+}
+#spec img{
+    padding-left: 8px;
+}
+#speimg{
+    margin-top: 0px;
+}
+/* 分数 */
+.student_score{
+    width: 202px;
+    height: 110px;
+    float: right;
+    /* border: 1px solid darkblue; */
+    text-align: center;
+}
+.text-primary
+{
+    color: #ff6e3d;
+}
+.text-info {
+    color: #03b8cf;
+}
+.text-success {
+    color: #38b03f;
+}
+.team_content{
+    width: 1023px;
+    height: 245px;
+    margin: 0 auto;
+    margin-top:10px; 
+}
+
+

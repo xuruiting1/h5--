@@ -1,0 +1,12 @@
+<ng-content select='.header'></ng-content>
+<p>
+  child works!
+</p>
+<ul>
+  <li *ngFor="let item of arr; let i=index" (click)="del(i)">
+    {{item}}
+  </li>
+</ul>
+{{message}}
+<ng-content select=".footer"></ng-content>
+

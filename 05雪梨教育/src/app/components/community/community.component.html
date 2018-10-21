@@ -1,0 +1,49 @@
+<div class="container_total">
+        <div class="community row">
+                <div class="right">
+                        <img src="assets/images/huati.png"/>
+                </div>
+                <div class="ask-list">
+                  <div class="item-text">
+                      <ul>
+                          <li *ngFor="let item of books;">
+            
+                            <a [routerLink]="['/community',item.id]">
+                              <div class="item-image">
+                                  <img class="base-img at-popup" data-username="bekvaviNpD6apQGmHNtb6c" src="/assets/images/taidi.jpg" alt="刘秀梅">
+                              </div>
+                              <!-- course是数组的某一项 -->
+                              <div class="article-body">
+                                  <div class="item-img">
+                                      <img class="media-object" src="{{item.images}}" alt="" />
+                                  </div>
+                                  <div class="item-wenzi">
+                                    <h5>{{item.articleName}}</h5>
+                                    <div class="xuxuxu"> 
+                                        <span class="excerpt">{{item.excerpt}}</span>
+                                        
+                                    </div>
+                                  </div>
+                              </div>
+                              <div class="article-date">
+                                  <span class="writer">{{item.writer}}</span>
+                                  <span class="day">{{item.day}}</span>
+                                  <span class="time">{{item.time}}</span>
+                                  <span class="read">阅读{{item.read}}</span>
+                                  <span class="comment">评论{{item.comment}}</span>
+                              </div>
+                              
+                              
+                            </a>
+                            <hr style="height:1px;border:none;border-top:1px solid #555555;" />
+                        </li>
+                    </ul>
+                  </div>
+                  
+                </div>
+                
+        </div>
+</div>
+
+    
+                        

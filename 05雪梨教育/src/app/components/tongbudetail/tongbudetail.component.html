@@ -1,0 +1,49 @@
+<div id="total">
+
+
+<div class="teamhead-details">
+    <div class="student_score">
+            <span title="当前业务得分">
+                <span class="text-primary" style="line-height: 3; font-size: 1.7em;">0.00</span>
+                <span class="text-primary" style="font-size: 0.9em; vertical-align: 16px;">分</span>
+                <span style="line-height: 3; font-size: 1.7em; color: #666;">/</span>
+            </span>
+            <span title="同步课已经发放总值">
+                <span class="text-info" style="line-height: 3; font-size: 1.7em;">20</span>
+                <span class="text-info" style="font-size: 0.9em; vertical-align: 16px;">分</span>
+                <span style="line-height: 3; font-size: 1.7em; color: #666;">/</span>
+            </span>
+            <span title="同步课任务总分">
+                <span class="text-success" style="line-height: 3; font-size: 1.7em;">20</span>
+                <span class="text-success" style="font-size: 0.9em; vertical-align: 16px;">分</span>
+            </span>
+    </div>
+    <div class="top">
+        <img src="assets/images/人事.png" class="renshi" />
+        <div class="public">
+                
+            <span class="kekeke">同步课 &nbsp;/ &nbsp;{{course?.courseName}}</span>
+            <span class="join"><img src="assets/images/icon_checkmark.png" class="icon-check"/>已加入</span>
+        </div>
+    </div>
+  
+    <div class="container">
+        <ul class="list">
+            <img src="assets/images/i.png" class="i"/>
+            <li><a href="http://localhost:4200/tongbu">简介</a></li>
+            <img src="assets/images/微笑.png" class="i"/>
+            <li><a href="http://localhost:4200/tongbu">互动</a></li>
+            <li class="spe" id="spec"> <img src="assets/images/任务.png" class="i" id="speimg"/><a href="http://localhost:4200/tongbu">任务&nbsp;&nbsp;{{course?.task}} &nbsp;</a></li>
+            <img src="assets/images/人.png" class="i"/>
+            <li><a href="http://localhost:4200/tongbu">成员 &nbsp; &nbsp;{{course?.person}} &nbsp;</a></li>
+        </ul>
+    </div>
+    
+</div>
+</div>
+<div class="team_content">
+    <img src="assets/images/team_content.png"/>
+</div>
+
+
+

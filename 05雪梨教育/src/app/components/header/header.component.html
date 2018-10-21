@@ -1,0 +1,32 @@
+<nav>
+  <ul class="nav">
+    <li><a class="logo"><img src="assets/images/logo.png" height="25px"/></a></li>
+    <li class="shouye"><a [routerLink]="['/home/task']">首页</a></li>
+    <li><a [routerLink]="['/tongbu']">同步课</a></li>
+    <!-- 课程id是100 的同步课 -->
+    <li><a [routerLink]="['/course']">课程</a></li>
+    <li><a [routerLink]="['/community']" >社区</a></li>
+    <!-- [queryParams]="{id:800,name:xuruiting}" -->
+    <!-- 传多个参数的时候比较方便 -->
+    <li>
+      <input type="text" placeholder="搜索课程、问答"/>
+      <input type="button" value="搜索"/>
+    </li>
+    <li>
+        <a style="display:block " class="hid"><img src="assets/images/1.png" class="tongzhi"/></a>
+        <ul style="display:none " class="show">
+          <li><a>@我的</a></li>
+          <li><a>收到的赞</a></li>
+          <li><a>评论</a></li>
+        </ul>
+    </li>
+    <li class="hid">
+        <a style="display:block " ><img src="assets/images/头像女孩.png" class="tongzhi"/></a>
+        <ul style="display:none " ng-mouseenter="show = true" ng-mouseleave="show = false">
+            <li><a>个人主页</a></li>
+            <li><a>设置</a></li>
+            <li><a>退出</a></li>
+        </ul>
+    </li>
+  </ul>
+</nav>

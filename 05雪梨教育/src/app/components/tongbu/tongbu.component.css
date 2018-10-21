@@ -1,0 +1,46 @@
+.container{
+    width: 1010px;
+    height: 800px;
+    margin: 0 auto;
+}
+.container ul
+{
+    
+    height: 799px;
+}
+.container ul li{
+    width:236px;
+    float: left;
+    margin-right: 5px;
+    margin-top: 20px;
+    border:1px solid silver;
+    margin-left: 0;
+}
+
+.container ul li a h1{
+    font-size: 1em;
+    line-height: 22px;
+    margin-top: 20px;
+    margin-bottom: 12px;
+    padding: 0 12px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    font-weight: 500;
+    color: #333;
+}
+.task{
+ margin-right: 10px;
+}
+.person{
+    margin-right: 10px;
+}
+.btn{
+    width: 60px;
+    color: white;
+    font-size: .8em;
+    line-height: 1;
+    padding: 5px 8px 5px 6px;
+    background-color: orangered;
+    float:right;
+}

@@ -1,0 +1,29 @@
+.andsay_idea{
+    margin-top: 20px;
+}
+.tip{
+    width: 762px;
+    height: 29px;
+    margin-left: 30px;
+}
+.demo{
+    width: 760px;
+    height: 37px;
+    margin: 0 auto;
+    border: 1px solid rgb(204, 204, 204);
+    margin-top: 15px;
+}
+.ke-edit{
+    width: 760px;
+    height: 37px;
+    margin: 0 auto;
+    border: 1px solid rgb(204, 204, 204);
+}
+.iconss{
+    width: 15px;
+    height: 15px;
+    margin-right: 20px;
+}
+.demo a{
+    padding: 5px;
+}

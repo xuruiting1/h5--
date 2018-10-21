@@ -1,0 +1,10 @@
+<ng-content select='.header'></ng-content>
+<p>
+  child1 works!
+</p>
+<ul>
+  <li *ngFor="let item of arr; let i=index">
+    {{item}}
+  </li>
+</ul>
+<ng-content select=".footer"></ng-content>

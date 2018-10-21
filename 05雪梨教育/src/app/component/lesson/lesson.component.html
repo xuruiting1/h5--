@@ -1,0 +1,34 @@
+<div>
+    <div class="child-pager-header">
+        <ul class="navbar-list-wrap">
+            <li class="active">
+                <a href="#"><img src="assets/images/时钟.png" class="time"/>正在学习<span class="count">12</span></a>
+            </li>
+            <li>
+                <a href="#"><img src="assets/images/链接.png" class="time"/> 我关注的</a>
+            </li>
+            <li>
+                <a href="#"><img src="assets/images/时钟_clock74.png" class="time"/>我看过的</a>
+            </li>
+        </ul>
+       
+    </div>
+    <div id="balala2">
+            <ul>
+                    <li *ngFor="let les of lessons;">
+                      <a [routerLink]="['/course',les.id]">
+                        <!-- course是数组的某一项 -->
+                        <img src="{{les.images}}" alt="" class="bigimg"/>
+                        <h5>{{les.lessonName}}</h5>
+                        <div class="card-content text-muted three-line" >
+                          <span class="contentspan">{{les.content}}</span>
+                        </div>
+                        <div class="ddd">
+                          <span class="hour"><span>课时：</span>{{les.hour}}</span>
+                          <span class="person"><span>人数：</span>{{les.person}}</span>
+                        </div>
+                    </a>
+                    </li>
+                  </ul>
+    </div>
+</div>

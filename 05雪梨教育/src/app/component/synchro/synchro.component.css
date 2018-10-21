@@ -1,0 +1,150 @@
+ul li{
+    float: left;
+}
+li.active>a {
+    color: #ff6e3d;
+}
+.navbar-list-wrap>li>a {
+    outline: none;
+    font-size: 0.9em;
+    padding: 0.5em 0.8em;
+    display: inline-block;
+    line-height: 1.8;
+}
+.child-pager-header{
+    border-bottom: 2px solid #eee;
+    font-size: 16px;
+    margin-bottom: 24px;
+    margin-left: 20px;
+}
+.navbar-list-wrap {
+    /* margin-bottom: -2px; */
+    padding-left: 0;
+    display: inline-block;
+}
+.time{
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
+.other-operate-options{
+    float:right;
+    margin-top: 5px;
+}
+.search-component-wrap {
+    float: left;
+    position: relative;
+    height: 32px;
+    font-size: 1em;
+    width: 200px;
+    /* border: 1px solid black; */
+}
+.form-group {
+    margin-bottom: 15px;
+    margin-right: -10px;
+}
+.form-group input {
+    border-radius: 4px 0 0 4px;
+}
+.form-control{
+    width: 157px;
+    height: 28px;
+}
+.search{
+    width: 25px;
+    height: 25px;
+    
+}
+.search-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40px;
+    height: 100%;
+    font-size: 0.9em;
+    text-align: center;
+    background-color: #eee;
+    border: 1px solid #c0c0bf;
+    border-left-style: none;
+    padding: 0;
+    border-radius: 0 4px 4px 0;
+    transition: all 230ms;
+    color: #333;
+}
+/* 内容 */
+.right_bottom{
+    width: 762px;
+    height: 1580px; 
+    /* border: 1px solid springgreen; */
+    margin-left: 20px;
+}
+.container{
+    width: 762px;
+    height: 1580px; 
+    float: left;
+}
+.container ul li{
+    float: none;
+}
+.lesson_message{
+    border: 1px solid white;
+}
+.lesson_img{
+    width: 215px;
+    height: 100px;
+    float: left;
+    margin-right: 20px;
+    /* padding-top: 20px; */
+}
+
+.lesson_half{
+    width: 762px;
+    position: relative;
+    height:100px;
+    border-bottom: 1px solid gainsboro;
+}
+.lesson_name{
+    width: 380px;
+    /* border: 1px solid black; */
+    font-size: 18px;
+    line-height: 1;
+    overflow: hidden;
+    font-weight: 500;
+    color: #333;
+    margin-top: -10px;
+}
+
+.lesson_num{
+    width: 402px;
+    height: 18px;
+    /* border: 1px solid black; */
+    margin-top: 8px;
+    margin-top: 40px;
+}
+.task{
+    font-size: .9em;
+    margin-right: 10px;
+    color: #999;
+}
+.person{
+    font-size: .9em;
+    color: #999;
+    margin-right: 10px;
+}
+/* 分数 */
+
+.lesson_score{
+    width: 100px;
+    height: 90px;  
+    /* border: 1px solid gold; */
+    float:right;
+    position:absolute;
+    top: 0;
+    right: 0;
+}
+.lesson_score img{
+    width: 80px;
+    height: 80px;
+    border: #333;
+    float: right;
+}

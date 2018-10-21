@@ -1,0 +1,27 @@
+
+<div class="container">
+  <div id="daohang">
+    <ul id="lesson">
+      <li><a href="">课程分类<span class="caret"></span></a></li>
+      <li><a href="">课程体系<span class="caret"></span></a></li>
+    </ul>
+  </div>
+    <div id="balala2">
+            <ul>
+                    <li *ngFor="let les of lessons;">
+                      <a [routerLink]="['/course',les.id]">
+                        <!-- course是数组的某一项 -->
+                        <img src="{{les.images}}" alt="" class="bigimg"/>
+                        <h1>{{les.lessonName}}</h1>
+                        <div class="card-content text-muted three-line" >
+                          <span class="contentspan">{{les.content}}</span>
+                        </div>
+                        <div class="ddd">
+                          <span class="hour"><span>课时：</span>{{les.hour}}</span>
+                          <span class="person"><span>人数：</span>{{les.person}}</span>
+                        </div>
+                    </a>
+                    </li>
+                  </ul>
+    </div>
+</div>

@@ -1,0 +1,36 @@
+
+nav{
+    height:50px;
+    background-color:gainsboro;
+}
+.nav{
+    width: 1200px;
+    margin:0 anto;
+    line-height:45px;
+}
+.shouye{
+    margin-left: 100px;
+}
+.nav li{
+    float:left;
+    margin:0 30px;
+    cursor: pointer;
+}
+.logo img{
+    margin-left:150px;
+    margin-top: 8px;
+}
+input{
+    line-height: 20px;
+}
+.hid a:hover{
+    display: block;
+}
+.tongzhi{
+    margin-top: 10px;
+    width: 25px;
+    height: 25px;
+    line-height: 30px;
+    margin-right: 20px;
+}
+

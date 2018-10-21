@@ -1,0 +1,73 @@
+.home_total{
+    width: 1020px;
+    height: 665px;
+    margin: 0 auto;
+}
+.left{
+    width: 170px;
+    height: 458px;
+    float: left;
+    /* margin-left: 170px; */
+    margin-top:20px; 
+    height: 100%;
+    /* border:1px solid black; */
+    
+}
+.name{
+    text-align: center;
+    font-size: 1.2em;
+}
+.count1{
+    margin-left:35px; 
+    margin-right:70px; 
+    font-size: 1.6em;
+}
+.count2{
+    font-size: 1.6em;
+}
+.fensi{
+    font-size: 0.8em;
+    margin-left:30px; 
+    margin-right:65px; 
+}
+.care{
+    font-size: 0.8em;
+}
+#des{
+    margin-bottom: 10px;
+}
+/* 左侧盒子下面的部分 */
+.buttom1
+{
+   /* border: 1px solid saddlebrown ; */
+   margin-top: 5px;
+   font-size: 1.2em;
+   line-height: 2;
+}
+.buttom1 ul li a span{
+    float:right;
+    font-size: 1.2em;
+}
+.right{
+    width: 826px;
+    height: 477px;
+    /* border: 1px solid saddlebrown ; */
+    float: left;
+    margin-top: 20px;
+}
+.buttom1 ul li a {
+    font-size: 16px;
+    color: #333;
+}
+.buttom1 ul li a:link{
+    color: #ff6e3d;
+}
+.buttom1 ul li a:visited { 
+    color:#333; 
+} 
+.buttom1 ul li a:hover{
+    color: #ff6e3d;
+}
+.buttom1 ul li a:active{
+    color: #ff6e3d;
+}

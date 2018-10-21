@@ -1,0 +1,49 @@
+<div>
+    <div class="child-pager-header">
+        <ul class="navbar-list-wrap">
+            <li class="active">
+                <a href="#">我加入的</a>
+            </li>
+        </ul>
+        <div class="other-operate-options">
+            <form class="search-component-wrap">
+                <div class="form-group">
+                    <input type="text" name="keyword" placeholder="输入同步课名称搜索" class="form-control" id="id_keyword" title="输入同步课名称搜索">
+                </div>
+                <button class="search-button"><img src="assets/images/搜索.png" class="search"/></button>
+                
+            </form>
+        </div>
+    </div>
+    <div class="right_bottom">
+            <div class="container">
+                <ul>
+                    <li *ngFor="let course of courses;">
+                        <a [routerLink]="['/tongbu',course.id]" class="lesson_message">
+                          <!-- course是数组的某一项 -->
+                          <img src="{{course.images}}" alt="logo" class="lesson_img"/>
+                          <div class="lesson_half">
+                              <div class="lesson_name">
+                                  <span>{{course.courseName}}</span>
+                              </div>
+                              <!-- <a href="#" title="" class="kongbai">
+                                <p class="team-card-description"></p>
+                              </a> -->
+                              <div class="lesson_num">
+                                <span class="task">&nbsp;<img src="assets/images/3.png"/>&nbsp;{{course.task}}</span>
+                                <span class="person">&nbsp;<img src="assets/images/4.jpg"/>&nbsp;{{course.person}}</span>
+                              </div>
+                              <div class="lesson_score">           
+                                    <img src="assets/images/圆.png"/>
+                              </div>  
+                          </div>
+                           
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            
+    </div>
+</div>
+
+
